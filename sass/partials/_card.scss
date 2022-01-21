@@ -1,0 +1,19 @@
+.card{
+    border: none;
+    background-color: $primary;
+
+    height: 200px;
+    width: 200px;
+    margin: auto;
+
+    .card__body--pink{
+        background-color: $secondary;
+        border: 3px solid white;
+        border-radius: $border-radius;
+    }
+    .card__body--white{
+        background-color: white;
+        border: 3px solid $secondary;
+        border-radius: $border-radius;
+    }
+}

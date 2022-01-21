@@ -1,0 +1,10 @@
+.nav{
+    background-color: $primary;
+
+    .nav__link{
+        text-transform: uppercase;
+        &:hover{
+            color: $primary-hover-colour !important;
+        }
+    }
+}
